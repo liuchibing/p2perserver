@@ -1,7 +1,7 @@
 FROM openjdk
 MAINTAINER liuchibing
 
-COPY Server.jar ~/Server.jar
+COPY Server.jar ~/P2PerServer.jar
 WORKDIR ~/
 
-CMD java -jar Server.jar
+CMD java -jar P2PerServer.jar
